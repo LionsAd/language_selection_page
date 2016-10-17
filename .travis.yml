@@ -21,6 +21,8 @@ env:
     # see: https://github.com/drush-ops/drush#install---composer
     - PATH="$PATH:$HOME/.composer/vendor/bin"
 
+    - DRUPAL_TI_DEBUG="-x -v"
+
     # Configuration variables.
     - DRUPAL_TI_MODULE_NAME="language_selection_page"
 
